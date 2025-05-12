@@ -1,11 +1,10 @@
 {
   "version": 5,
-  "prev": "1e1c1302083178708788b4714bf197f95c6547c1",
-  "head": "2d02df0ecc3992b2fbeaf673d84062f7939c68cf",
+  "prev": "e7f62ed1be2756a0eec9f9e85a09addc83adae56",
+  "head": "f642eb3b58508deeae89b23e660bdf5482e06466",
   "applied": [
     "dangle",
-    "cxx23",
-    "refresh-temp"
+    "cxx23"
   ],
   "unapplied": [],
   "hidden": [],
@@ -14,10 +13,7 @@
       "oid": "55517b95b4d85c239d9256d2e2aa11986f5898f8"
     },
     "cxx23": {
-      "oid": "c25801b20f5f9ca7028dab6e004d4baf5b31bdcf"
-    },
-    "refresh-temp": {
-      "oid": "2d02df0ecc3992b2fbeaf673d84062f7939c68cf"
+      "oid": "f642eb3b58508deeae89b23e660bdf5482e06466"
     }
   }
 }
