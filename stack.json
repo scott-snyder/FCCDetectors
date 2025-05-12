@@ -1,15 +1,19 @@
 {
   "version": 5,
-  "prev": "3cd2a9033f39ff60a8c7684b85b374ddea748541",
-  "head": "55517b95b4d85c239d9256d2e2aa11986f5898f8",
+  "prev": "f0440f38b0a9fe8f1dd321a4b5c07bc5a4599aca",
+  "head": "c25801b20f5f9ca7028dab6e004d4baf5b31bdcf",
   "applied": [
-    "dangle"
+    "dangle",
+    "cxx23"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "dangle": {
       "oid": "55517b95b4d85c239d9256d2e2aa11986f5898f8"
+    },
+    "cxx23": {
+      "oid": "c25801b20f5f9ca7028dab6e004d4baf5b31bdcf"
     }
   }
 }
