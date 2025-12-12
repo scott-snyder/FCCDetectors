@@ -21,11 +21,9 @@ static Ref_t create_detector(Detector& lcdd, xml_h e, SensitiveDetector /*sens*/
   DetElement sdet(det_name, x_det.id());
   Volume motherVol = lcdd.pickMotherVolume(sdet);
 
-  int m_id = 0;
-
   PlacedVolume pv;
 
-  for (xml_coll_t mi(x_det, _U(module)); mi; ++mi, ++m_id) {
+  for (xml_coll_t mi(x_det, _U(module)); mi; ++mi) {
     xml_comp_t x_mod = mi;
     string m_nam = x_mod.nameStr();
     double x = x_mod.x();
