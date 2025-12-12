@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "6ac4421b6790486ac4c5cae6d59b07f5877bb77d",
-  "head": "f5b02c5f085418dab8149b374265d0ecbbbf5a9c",
+  "prev": "dc7c1b8e32b2282498cba1c6c31b95e976e617a8",
+  "head": "9d2e93563bf71227552d7fb345b6b7c44260c599",
   "applied": [
     "dangle",
     "cxx23",
     "cmakewarn",
-    "gcc16warn"
+    "gcc16warn",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [],
@@ -22,6 +23,9 @@
     },
     "gcc16warn": {
       "oid": "f5b02c5f085418dab8149b374265d0ecbbbf5a9c"
+    },
+    "refresh-temp": {
+      "oid": "9d2e93563bf71227552d7fb345b6b7c44260c599"
     }
   }
 }
