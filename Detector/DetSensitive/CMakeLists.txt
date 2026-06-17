@@ -14,6 +14,7 @@ target_include_directories(DetSensitive
 
 file(GLOB headers include/DetSensitive/*.h)
 set_target_properties(DetSensitive PROPERTIES PUBLIC_HEADER "${headers}")
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 dd4hep_generate_rootmap(DetSensitive)
 
 

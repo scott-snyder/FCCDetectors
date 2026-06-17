@@ -5,6 +5,7 @@
 install(DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/compact DESTINATION Detector/DetTrackerSimple)
 
 file(GLOB sources src/*.cpp)
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 add_dd4hep_plugin(DetTrackerSimple SHARED ${sources})
 target_link_libraries(DetTrackerSimple DD4hep::DDCore)
 

@@ -19,6 +19,7 @@ target_include_directories(DetSegmentationPlugin
         $<INSTALL_INTERFACE:include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 dd4hep_generate_rootmap(DetSegmentationPlugin)
 
 file(GLOB headers include/DetSegmentation/*.h)
