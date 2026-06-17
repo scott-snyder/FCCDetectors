@@ -6,6 +6,8 @@ install(DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/compact DESTINATION ${CMAKE_INSTALL_
 
 
 file(GLOB sources src/*.cpp)
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 add_dd4hep_plugin(DetFCChhHCalTile SHARED ${sources})
 target_link_libraries(DetFCChhHCalTile DD4hep::DDCore)
 

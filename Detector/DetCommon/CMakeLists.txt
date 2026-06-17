@@ -26,6 +26,7 @@ install(TARGETS DetCommon
 
 install(DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/compact DESTINATION ${CMAKE_INSTALL_DATADIR}/${CMAKE_PROJECT_NAME}/Detector/DetCommon)
 
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 dd4hep_generate_rootmap(DetCommon)
 
 #include(CTest)

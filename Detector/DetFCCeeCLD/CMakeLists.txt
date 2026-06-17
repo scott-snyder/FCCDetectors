@@ -6,10 +6,9 @@ install(DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/compact DESTINATION ${CMAKE_INSTALL_
 
 
 file(GLOB sources src/*.cpp)
+set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 add_dd4hep_plugin(DetFCCeeCLD SHARED ${sources})
 target_link_libraries(DetFCCeeCLD DD4hep::DDCore)
-
-set(LIBRARY_OUTPUT_PATH ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 
 add_test(NAME ConstructDetFCCeeCLD
          COMMAND root -q -b ".github/scripts/load_detector.C(\"Detector/DetFCCeeCLD/compact/FCCee_o2_v02/FCCee_o2_v02.xml\", \"${CMAKE_BINARY_DIR}/fccee_cld.root\")"
