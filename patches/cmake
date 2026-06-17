@@ -1,0 +1,6 @@
+Bottom: 86b1a9d5081b3030c58a24ddb6b623169dc5d7e3
+Top:    86b1a9d5081b3030c58a24ddb6b623169dc5d7e3
+Author: sss <sss@karma>
+Date:   2026-06-17 15:12:40 -0400
+
+Fix cmake errors from missing WORKING_DIRECTORY argument.

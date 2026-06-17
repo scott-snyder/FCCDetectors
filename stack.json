@@ -1,17 +1,21 @@
 {
   "version": 5,
-  "prev": "edfec48caeb5678392f62f91bea163c0c19b0fc5",
-  "head": "60eddbdc97af9a986a9ea0bcab0e79459a78fe41",
+  "prev": "49525a6056fd7e39193c8118942d834426f8fc30",
+  "head": "da52395e3ed7081c9220b75845e44e59550ef33c",
   "applied": [
     "dangle",
     "cxx23",
     "cmakewarn",
     "gcc16warn",
-    "cxx26"
+    "cxx26",
+    "cmake"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "cmake": {
+      "oid": "da52395e3ed7081c9220b75845e44e59550ef33c"
+    },
     "cmakewarn": {
       "oid": "61df74e641d555fd6e713bdda72b16d456ace599"
     },
